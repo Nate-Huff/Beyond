@@ -1,0 +1,17 @@
+.mega-menu-target{
+    font-size: 13px;
+    color:#242527;
+}
+
+.mm-mega-menu{
+    background-color: #26282a;
+    width: 100%;
+    position:relative;
+}
+
+.mm-navbar{
+    margin-left: 45.5px;
+    margin-right: 45.5px;
+    max-width: 1200px;
+    
+}

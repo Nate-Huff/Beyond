@@ -5,79 +5,56 @@
     border-bottom-width:1px;
     border-bottom-style: solid;
     border-bottom-color:rgb(27,154,240);
-    z-index:55000;
+    box-shadow:0 3px 6px rgb(0 0 0 / 25%);
 }
 
 .container{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin:0 auto;
-    box-sizing: inherit;
+    margin-left:45.5px;
+    margin-right:45.5px;
+    height:64px;
+    width:1291px;
     font-size: 13px;
     font-family: Roboto,Helvetica,sans-serif;
 }
 
-.logo-image{
-    height: 40px !important;
-    width: 150px !important;
-    margin: 0 !important;
-    display: block;
-    padding-left: 10px;
-    box-sizing: inherit;
+.site-bar{
+    display:inline-block;
+    height:64px !important;
+    width: 1200px;
 }
 
-.topbar-interactions{
-    flex:1;
-    box-sizing: inherit;
+.logo-image{
+    height: 64px !important;
+    width: 125px !important;
+    display: block;
+    padding-top: 12px;
+    margin:0px !important;
+    box-sizing: border-box;
 }
 
 .topbar-interactions-groups{
+    display:inline-block;
     height:64px;
     padding-left: 10px;
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    box-sizing: inherit;
-}
+}  
 
 .search1{
-    flex-grow: 1;
-    box-sizing: inherit;
-}
-
-.topbar-searchbar{
-    box-sizing: inherit;
-    display: block;
-}
-
-.searchbar{
-    position: relative;
-    height: auto;
-    align-items: center;
-    padding: 20px;
-    box-sizing: inherit;
+    display:flex;
 }
 
 .icon1{
-    background-image: url(https://www.dndbeyond.com/content/1-0-1862-0/skins/waterdeep/images/icons/search-grey.svg);
     background-size: 24;
     display: inline-block;
     background-position: center;
-    height: 40px;
-    width: 40px;
-    min-width: 40px;
-    box-sizing: inherit;
+    color:grey;
 }
 
-.search{
-    color:#fff;
-    font-size: 18px;
-    margin: 0 20px;
-    flex:1;
+.form-control{
+    border: none;
 }
 
 .links{
@@ -149,7 +126,6 @@
 .user-interactions-profile-menu{
     display: block;
     position: absolute;
-    z-index: -1;
     top:100%;
     right:0;
     width:150px;
