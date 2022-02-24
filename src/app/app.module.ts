@@ -14,6 +14,8 @@ import { PathwayComponent } from './body/Messages/Pathway/pathway.component';
 import { FunctionComponent } from './body/Messages/Function/function.component';
 import { InboxComponent } from './body/Messages/Inbox/inbox.component';
 import { FiltersComponent } from './body/Messages/Filters/filters.component';
+import { CardComponent } from './body/Changelog/Card/card-layout.component';
+import { Pathway2Component } from './body/Changelog/Pathway/pathway.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { FiltersComponent } from './body/Messages/Filters/filters.component';
     PathwayComponent,
     InboxComponent,
     FunctionComponent,
-    FiltersComponent
+    FiltersComponent,
+    CardComponent,
+    Pathway2Component
   ],
   imports: [
     BrowserModule,
