@@ -5,7 +5,7 @@ import { SubscribeLayoutComponent } from './body/Subscribe/subscribe-layout.comp
 import { MainPageComponent } from './body/Default/mainpage.component';
 import { HomeLayoutComponent } from './body/Home/home-layout.component';
 import { ChangelogComponent } from './body/Changelog/changelog-layout.component';
-import { NotificationsComponent } from './body/Notifications/notifications-layout.component';
+import { NewPlayerGuideComponent } from './body/NewPlayerGuide/newplayerguide-layout.component';
 import { MessagesComponent } from './body/Messages/messages-layout.component';
 
 const routes:Routes = [
@@ -13,7 +13,7 @@ const routes:Routes = [
   {path: 'Subscribe', component: SubscribeLayoutComponent},
   {path: 'Home', component: HomeLayoutComponent},
   {path: 'Changelog', component: ChangelogComponent},
-  {path: 'Notifications', component: NotificationsComponent},
+  {path: 'NewPlayerGuide', component: NewPlayerGuideComponent},
   {path: 'Messages', component: MessagesComponent}
 ];
 

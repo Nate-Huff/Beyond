@@ -1,0 +1,44 @@
+.pm{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+.pm::before{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background: "assets/breadcrumb-chevron.svg";
+    margin-left: 12px;
+    vertical-align: text-top;
+}
+
+.pn{
+    font-size: 12px;
+}
+.smalllogo{
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    display: inline-block;
+
+}
+
+.pmName{
+    color: #a5afba;
+    font-size: 12px;
+
+}
+
+.breadcrumb-item{
+    display: inline-block;
+}
+
+.breadcrumb{
+    display:block;
+    border-radius: 3px;
+    background: #fff;
+    padding: 5px 15px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+}

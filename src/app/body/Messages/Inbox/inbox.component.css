@@ -1,0 +1,26 @@
+.listing-body{
+    border: 1px solid #d9d4d2;
+}
+.container{
+    float: left;
+    text-align: center;
+    width: 74.4875%;
+    margin-left: 2.05%;
+}
+.messages{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align:center;
+    color: black;
+    text-decoration: none;
+}
+.messages:first-child{
+    margin-top: 40px;
+    font-size: 26px;   
+    text-align:center;
+}
+.messages:last-child{
+    font-size: 16px;
+    display: block;
+}

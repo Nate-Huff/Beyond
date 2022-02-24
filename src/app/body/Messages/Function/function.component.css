@@ -1,0 +1,14 @@
+.box{
+    border-radius: 8px;
+    background-color: black;
+    padding:10px 20px !important;
+    text-transform: uppercase;
+    margin: 0 8px 20px 0;
+    float: left;
+    color:white;
+    font-size: 13px;
+}
+.b-search-a{
+    float:right;
+    margin-bottom: 19.5px;
+}

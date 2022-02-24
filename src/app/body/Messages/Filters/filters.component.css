@@ -1,0 +1,22 @@
+.label{
+    font-size: 16px;
+
+}
+a{
+    padding:.30769em .61538em;
+}
+.b-userAction-item{
+    padding-left: 8px;
+    text-align: left;
+
+}
+.user-actions{
+    border: 1px solid #d9d4d2;
+
+}
+.container{
+    margin-bottom: 19.5px;
+    float: left;
+    width: 23.4625%;
+    
+}
