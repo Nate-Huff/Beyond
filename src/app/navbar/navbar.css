@@ -1,5 +1,6 @@
 .mega-menu-target{
     font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
     color:#242527;
     height:50px;
 }
@@ -8,24 +9,47 @@
     background-color: #26282a;
     width: 100%;
     position:relative;
+    height: 50px;
 }
 
 .mm-navbar{
-    margin-left: 45.5px;
-    margin-right: 45.5px;
+    margin: 0 auto;
     max-width: 1200px;
+    height: inherit;
 }
 
 .mm-navbar_container{
     z-index: 101;
     width: 100%;
+    height: inherit;
 }
 
 .mm-navbar_menu-list{
     display: flex;
     position: relative;
+    margin: 0;
+    height: inherit;
+    padding:0;
 }
 
 .mm-nav-item{
     cursor:pointer;
+    box-sizing: inherit;
+    display:list-item;
+    height: inherit;
+}
+
+ul li ::marker{
+    font-size: 15px;
+    height: 50px;
+}
+
+span{
+    display: flex;
+    height: 50px important!;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #a5afba;
+    padding: 0 15px;
 }
