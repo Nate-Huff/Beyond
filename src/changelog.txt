@@ -5,3 +5,7 @@
         -Implemented a header and building block code for the changelog page
     SecondaryFeatures
         -Added angular routing for five places on the original source page - catch up from last week
+3/3/2022
+    MainFeatures
+        -Implememnted firebase
+        -Added user info at the top of website
