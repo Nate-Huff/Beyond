@@ -16,6 +16,8 @@ import { InboxComponent } from './body/Messages/Inbox/inbox.component';
 import { FiltersComponent } from './body/Messages/Filters/filters.component';
 import { CardComponent } from './body/Changelog/Card/card-layout.component';
 import { Pathway2Component } from './body/Changelog/Pathway/pathway.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -32,11 +34,13 @@ import { Pathway2Component } from './body/Changelog/Pathway/pathway.component';
     FunctionComponent,
     FiltersComponent,
     CardComponent,
-    Pathway2Component
+    Pathway2Component,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
