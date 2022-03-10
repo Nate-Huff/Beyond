@@ -18,6 +18,7 @@ import { CardComponent } from './body/Changelog/Card/card-layout.component';
 import { Pathway2Component } from './body/Changelog/Pathway/pathway.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './user-info/user-info.component';
+import { ButtonComponent } from './body/Default/button.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { UserInfoComponent } from './user-info/user-info.component';
     FiltersComponent,
     CardComponent,
     Pathway2Component,
-    UserInfoComponent
+    UserInfoComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,

@@ -9,3 +9,9 @@
     MainFeatures
         -Implememnted firebase
         -Added user info at the top of website
+3/10/2022
+    MainFeatures
+        -Implemented Backend data to fill cards
+        -Used Firebase to store the data
+    SecondaryFeatures
+        -Implemented NgFor loop for cards

@@ -1,4 +1,6 @@
 import{Component} from "@angular/core";
+import { ButtonModel } from "./button-item.model";
+import { ButtonService } from "./button.service";
 
 @Component({
     selector: 'app-mainpage',
@@ -7,5 +9,22 @@ import{Component} from "@angular/core";
 })
 
 export class MainPageComponent{
-    
+    buttons: ButtonModel [] = [];
+
+    constructor(private service:ButtonService){
+        
+    }
+
+    ngOnInit(): void{
+
+        console.log("Fetch data");
+        this.service.getButtons().subscribe(data => {
+            console.log(data);
+            for(var button of data){
+                this.buttons.push(button);
+            }
+        });
+
+    }
+
 }

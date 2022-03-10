@@ -7,15 +7,14 @@
                     <div class = "builder-type">
                         <p class = "builder-type-instructions">Choose one of three ways to create your character</p>
                         <div class = "builder-type-choice">
-                            <div class = "builder-type-choice-list">
-                                <div class = "builder-type-choice-item">
-                                    <a></a>
-                                </div>
-                                <div class = "builder-type-choice-item">
-                                    <a></a>
-                                </div>
-                                <div class = "builder-type-choice-item">
-                                    <a></a>
+                            <div class = "builder-type-choice-list row">
+                                <div class = "builder-type-choice-item col-3 d-flex">
+                                    <div *ngFor = "let button of buttons">
+                                        <beyond-button
+                                        link = {{button.link}}
+                                        title = {{button.title}}
+                                        description = {{button.description}}></beyond-button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
