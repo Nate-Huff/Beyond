@@ -1,6 +1,7 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { ButtonModel } from "./button-item.model";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 
 @Injectable({
 
@@ -10,14 +11,11 @@ import { ButtonModel } from "./button-item.model";
 
 export class ButtonService{
 
-    private baseUrl:string = "https://beyond-app-5f18d-default-rtdb.firebaseio.com/";
-    private buttonEndPoint:string = "buttons/.json";
-
-    constructor(private http:HttpClient){}
+    constructor(private db:AngularFireDatabase){}
 
     public getButtons() {
 
-        return this.http.get<ButtonModel []>(this.baseUrl + this.buttonEndPoint);
+        return this.db.list<ButtonModel>("buttons").valueChanges();
 
     }
     

@@ -3,6 +3,21 @@
     position: relative;
     perspective: none;
     transform: none;
+    background: url(https://media-waterdeep.cursecdn.com/attachments/1/614/builder1k.jpg), url(https://media-waterdeep.cursecdn.com/attachments/0/84/background_texture.png);
+    background-position-x: center, initial;
+    background-position-y: 47px, initial;
+    background-size: initial, initial;
+    background-attachment: initial, initial;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: rgb(249, 249, 249);
+}
+
+.character-builder-inner{
+    max-width: 680px;
+    margin: 0px auto;
+    position: relative;
+    padding-top: 5px;
 }
 
 .builder-type-choice-list{

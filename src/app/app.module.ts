@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { AngularFireModule } from '@angular/fire/compat';
 import { AppComponent } from './app.component';
 import { FeaturesComponent } from './features/features';
 import { NavbarComponent } from './navbar/navbar';
@@ -19,6 +20,9 @@ import { Pathway2Component } from './body/Changelog/Pathway/pathway.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './user-info/user-info.component';
 import { ButtonComponent } from './body/Default/button.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
 
 @NgModule({
   declarations: [
@@ -42,7 +46,9 @@ import { ButtonComponent } from './body/Default/button.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]

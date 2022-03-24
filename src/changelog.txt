@@ -15,3 +15,10 @@
         -Used Firebase to store the data
     SecondaryFeatures
         -Implemented NgFor loop for cards
+3/23/2022
+    MainFeatures
+        -Implemented a firebase hosted web link
+    SecondaryFeatures 
+        -Removed Bullet points from navbar
+        -cosmetic touch-ups for mainpage
+        -added background image for mainpage
