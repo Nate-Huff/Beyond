@@ -18,5 +18,11 @@ export class ButtonService{
         return this.db.list<ButtonModel>("buttons").valueChanges();
 
     }
+
+    public addMethod(method:ButtonModel){
+
+        this.db.list<ButtonModel>("methods").push(method);
+
+    }
     
 }

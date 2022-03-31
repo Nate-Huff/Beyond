@@ -1,0 +1,27 @@
+<div class = "container">
+    <div class = "row">
+        <div class = "col8">
+            <form #postForm = "ngForm" (ngSubmit) = "addMethod(postForm.value)">
+                <div class = "input-group">
+                     <span class = "input-group text">
+                         Url path
+                    </span>
+                    <input type = "text" class = "form-control" ngModel name="link" required>
+                </div>
+                <div class = "input-group">
+                    <span class = "input-group text">
+                        Name
+                   </span>
+                   <input type = "text" class = "form-control" ngModel name ="title" required>
+               </div>    
+               <div class = "input-group">
+                    <span class = "input-group text">
+                        Description
+                     </span>
+                     <input type = "text" class = "form-control" ngModel name="description">
+                </div>   
+                <button class = "btn" type = "submit" [disabled]="!postForm.valid">Add Method</button>     
+            </form>
+        </div>
+    </div>
+</div>

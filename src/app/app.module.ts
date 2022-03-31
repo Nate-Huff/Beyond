@@ -23,6 +23,8 @@ import { ButtonComponent } from './body/Default/button.component';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { FormsModule } from '@angular/forms';
+import { AddMethodComponent } from './body/Admin/add-method.component';
 
 @NgModule({
   declarations: [
@@ -41,14 +43,16 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
     CardComponent,
     Pathway2Component,
     UserInfoComponent,
-    ButtonComponent
+    ButtonComponent,
+    AddMethodComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
