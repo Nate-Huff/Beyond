@@ -22,3 +22,6 @@
         -Removed Bullet points from navbar
         -cosmetic touch-ups for mainpage
         -added background image for mainpage
+3/30/2022
+    MainFeatures
+        -Added an admin backdoor that allows for creation of button in the character creation page
