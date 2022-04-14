@@ -25,6 +25,7 @@ import { environment } from '../environments/environment';
 import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { FormsModule } from '@angular/forms';
 import { AddMethodComponent } from './body/Admin/add-method.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { AddMethodComponent } from './body/Admin/add-method.component';
     Pathway2Component,
     UserInfoComponent,
     ButtonComponent,
-    AddMethodComponent
+    AddMethodComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,

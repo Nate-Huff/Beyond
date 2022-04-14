@@ -8,6 +8,7 @@ import { ChangelogComponent } from './body/Changelog/changelog-layout.component'
 import { NewPlayerGuideComponent } from './body/NewPlayerGuide/newplayerguide-layout.component';
 import { MessagesComponent } from './body/Messages/messages-layout.component';
 import { AddMethodComponent } from './body/Admin/add-method.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes:Routes = [
   {path: '', component: MainPageComponent},
@@ -16,7 +17,8 @@ const routes:Routes = [
   {path: 'Changelog', component: ChangelogComponent},
   {path: 'NewPlayerGuide', component: NewPlayerGuideComponent},
   {path: 'Messages', component: MessagesComponent},
-  {path: 'admin', component: AddMethodComponent}
+  {path: 'admin', component: AddMethodComponent},
+  {path: 'auth', component: AuthenticationComponent}
 ];
 
 @NgModule({

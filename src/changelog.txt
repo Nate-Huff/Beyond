@@ -25,3 +25,9 @@
 3/30/2022
     MainFeatures
         -Added an admin backdoor that allows for creation of button in the character creation page
+4/13/2022
+    MainFeatures
+        -Added user authentication
+            -Users may now register and email account with the website that will be stored in the firebase along with a password
+    SecondaryFeatures
+        -Minor cosmetic changes
